@@ -7,6 +7,14 @@ import { TYPES } from "../constants/types";
 import { Writable } from "../utils/writable";
 import { User } from "./user";
 
+/**
+ * Base entity from which other entities inherit
+ *
+ * @export
+ * @abstract
+ * @class BaseEntity
+ * @extends {Typegoose}
+ */
 // eslint-disable-next-line
 /**
  * Base entity from which other entities inherit
